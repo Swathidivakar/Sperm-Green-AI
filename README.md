@@ -37,17 +37,7 @@ python sperm_green_ai_full.py
 > numpy is pinned < 2.0 on purpose — numpy 2.x breaks the pinned pandas /
 > scikit-learn builds.
 
-## Honesty / methodology notes
 
-- **No leakage:** scaling and feature selection are fit inside each LOOCV fold.
-- **Uncertainty:** the green pipeline is deterministic (no seed variance), so
-  significance rests on a permutation test and precision on a bootstrap CI —
-  which is wide at n = 24, as honestly reported.
-- **Carbon:** not deterministic; each measurement is repeated and reported as
-  mean ± SD. Absolute CO₂e drifts between sessions, so only within-session
-  comparisons are valid.
-- **LightGBM** is unstable at n = 24 and is reported only with a small-sample-
-  optimism flag, never as a genuine result.
 
 ## Data
 
