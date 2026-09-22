@@ -54,6 +54,4 @@ python sperm_green_ai_full.py
 GEO **GSE160749** (public). The analysed expression matrix is already
 log-scaled/normalised.
 
-## License
 
-MIT.
