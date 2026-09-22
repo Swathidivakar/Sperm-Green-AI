@@ -1,0 +1,10 @@
+# Pinned to a mutually compatible set. numpy MUST stay < 2.0
+# (numpy 2.x breaks the pandas/scikit-learn builds below).
+numpy==1.24.4
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.3.2
+lightgbm>=4.0
+matplotlib>=3.6
+GEOparse>=2.0.3
+codecarbon>=2.3
